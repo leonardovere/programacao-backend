@@ -6,8 +6,12 @@ public class Aula01Variaveis {
 
         // Tipo primitivo
         boolean valorLogicoPrimitivo = true;
+        // Exibe o valor
+        System.out.println(valorLogicoPrimitivo);
 
         // Tipo abstrato
         Boolean valorLogicoAbstrato = false;
+        // Exibe com texto
+        System.out.println("O valor da varíavel valorLogicoAbstrato é: " + valorLogicoAbstrato);
     }    
 }
