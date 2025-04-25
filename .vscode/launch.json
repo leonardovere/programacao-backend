@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula06Estruturas",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula06Estruturas",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula05Estruturas",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula05Estruturas",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula05Funcoes",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula05Funcoes",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Av1",
             "request": "launch",
             "mainClass": "com.mycompany.avaliacao.Av1",
