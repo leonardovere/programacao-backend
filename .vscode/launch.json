@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex02",
+            "request": "launch",
+            "mainClass": "com.mycompany.exercicios.Ex02",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula05Repeticao",
             "request": "launch",
             "mainClass": "com.mycompany.Aula05Repeticao",
