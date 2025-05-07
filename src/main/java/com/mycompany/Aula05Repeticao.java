@@ -1,9 +1,11 @@
 package com.mycompany;
 
+import java.util.Scanner;
+
 public class Aula05Repeticao {
     public static void main(String[] args) throws InterruptedException {
         /**
-         * For (Para)
+         * For (Para
          * 
          * Para cada elemento repita
          * 
@@ -23,5 +25,16 @@ public class Aula05Repeticao {
             System.out.println(i + "...");
         }
         System.out.println("Booom !!");
+
+        /**
+         * Classe Scanner
+         * 
+         * É utilizada para ler valores inseridos pelo usuário pelo prompt de comando
+         */
+        Scanner scan = new Scanner(System.in); // Cria o scanner
+        System.out.println("Digite um número: ");
+
+        int numero = scan.nextInt(); // Lê o valor digitado e capturado pelo scanner
+        System.out.println("Você digitou " + numero + "!!");
     }
 }
