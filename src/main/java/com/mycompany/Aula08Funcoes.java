@@ -1,6 +1,6 @@
 package com.mycompany;
 
-public class Aula07Funcoes {
+public class Aula08Funcoes {
     public static void main(String[] args) {
         int num = 5;
 

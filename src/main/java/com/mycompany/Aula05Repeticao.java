@@ -31,11 +31,11 @@ public class Aula05Repeticao {
          * 
          * É utilizada para ler valores inseridos pelo usuário pelo prompt de comando
          */
-        // Scanner scan = new Scanner(System.in); // Cria o scanner
-        // System.out.println("Digite um número: ");
+        //Scanner scan = new Scanner(System.in); // Cria o scanner
+        //System.out.println("Digite um número: ");
 
-        // int numero = scan.nextInt(); // Lê o valor digitado e capturado pelo scanner
-        // System.out.println("Você digitou " + numero + "!!");
+        //int numero = scan.nextInt(); // Lê o valor digitado e capturado pelo scanner
+        //System.out.println("Você digitou " + numero + "!!");
 
         /**
          * While (enquanto)

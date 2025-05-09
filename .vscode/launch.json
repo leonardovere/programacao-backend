@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula06Condicional",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula06Condicional",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex02",
             "request": "launch",
             "mainClass": "com.mycompany.exercicios.Ex02",

@@ -2,7 +2,7 @@ package com.mycompany;
 
 import java.util.Arrays;
 
-public class Aula06Estruturas {
+public class Aula07Estruturas {
     public static void main(String[] args) {
         /**
          * Estruturas complexas de dados
