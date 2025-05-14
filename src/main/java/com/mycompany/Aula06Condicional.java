@@ -22,7 +22,8 @@ public class Aula06Condicional {
         /**
          * Estrutura condicional composta (if, else if, else)
          * 
-         * nesse tipo de estrutura podemos ter mais de uma verificação caso o primeiro if não seja satisfeito
+         * nesse tipo de estrutura podemos ter mais de uma 
+         * verificação caso o primeiro if não seja satisfeito
          * 
          * um exemplo prático pode ser a verificação do IMC
          */
