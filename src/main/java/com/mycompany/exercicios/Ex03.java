@@ -15,7 +15,7 @@ public class Ex03 {
 
         double imc = peso / Math.pow(altura, 2);
 
-        System.out.print("\nSeu IMC é " + imc + ", ");
+        System.out.printf("\nSeu IMC é %.1f, ", imc);
 
         if (imc < 16) {
             System.out.println("Você está com Magreza Grau III");
