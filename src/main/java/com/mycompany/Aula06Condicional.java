@@ -11,17 +11,16 @@ public class Aula06Condicional {
          * 
          * a condição verdadeira é executada dentro do if
          */
-        /* int num = 3; */
+        int num = 3;
 
         // % é o resto da divisão
         // comparando com 0, significa que o número é par
-        /*
-         * if (num % 2 == 0) {
-         * System.out.println(num + " é par !!");
-         * } else {
-         * System.out.println(num + " é ímpar !!");
-         * }
-         */
+
+        if (num % 2 == 0) {
+            System.out.println(num + " é par !!");
+        } else {
+            System.out.println(num + " é ímpar !!");
+        }
 
         /**
          * Estrutura condicional composta (if, else if, else)
@@ -32,17 +31,15 @@ public class Aula06Condicional {
          * um exemplo prático pode ser a verificação do IMC
          */
 
-        /*
-         * double imc = 24.0;
-         * 
-         * if (imc < 18.5) {
-         * System.out.println("Está abaixo do peso");
-         * } else if (imc >= 18.5 && imc < 24.5) {
-         * System.out.println("Está com peso ideal");
-         * } else {
-         * System.out.println("Está com obesidade");
-         * }
-         */
+        double imc = 24.0;
+
+        if (imc < 18.5) {
+            System.out.println("Está abaixo do peso");
+        } else if (imc >= 18.5 && imc < 24.5) {
+            System.out.println("Está com peso ideal");
+        } else {
+            System.out.println("Está com obesidade");
+        }
 
         /**
          * Estrutura Switch/Case
@@ -65,7 +62,7 @@ public class Aula06Condicional {
                         "\na) Argentina" + // \n é um caracter de scape usado para pular linha.
                         "\nb) Paraguai" +
                         "\nc) Brasil" +
-                        "\nd) Alemanha" + 
+                        "\nd) Alemanha" +
                         "\n\nDigite uma opção: ");
 
         Scanner scan = new Scanner(System.in);
