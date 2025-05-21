@@ -13,7 +13,8 @@ public class Aula07Estruturas {
          * 
          * representados por um []
          * 
-         * seu tamanho é fixo, onde o primeiro elemento ocupa a posição 0 e o último sendo n - 1, onde n é o número total de elementos
+         * seu tamanho é fixo, onde o primeiro elemento ocupa a posição 0 e o 
+         * último sendo n - 1, onde n é o número total de elementos
          * todo array tem um tipo associado
          */
         System.out.println("-------- Array --------");
