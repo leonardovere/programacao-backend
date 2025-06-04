@@ -1,4 +1,4 @@
-package com.mycompany.avaliacao;
+package com.mycompany.avaliacao.primeiroTrimestre;
 
 public class SolucaoAv1 {
     public static void main(String[] args) {

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Av1",
+            "request": "launch",
+            "mainClass": "com.mycompany.avaliacao.segundoTrimestre.Av1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula09Objetos",
             "request": "launch",
             "mainClass": "com.mycompany.Aula09Objetos",
