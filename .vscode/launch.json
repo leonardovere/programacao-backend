@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula09Objetos",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula09Objetos",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula08Funcoes",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula08Funcoes",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex03",
             "request": "launch",
             "mainClass": "com.mycompany.exercicios.Ex03",
