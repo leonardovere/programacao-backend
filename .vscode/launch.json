@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solucao",
+            "request": "launch",
+            "mainClass": "com.mycompany.avaliacao.segundoTrimestre.Solucao",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Rec1",
+            "request": "launch",
+            "mainClass": "com.mycompany.avaliacao.segundoTrimestre.Rec1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Ex04",
+            "request": "launch",
+            "mainClass": "com.mycompany.exercicios.Ex04",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Av1",
             "request": "launch",
             "mainClass": "com.mycompany.avaliacao.segundoTrimestre.Av1",

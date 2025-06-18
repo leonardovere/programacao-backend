@@ -1,4 +1,4 @@
-package com.mycompany;
+package com.mycompany.poo;
 
 public class Aula09Objetos {
     public static void main(String[] args) {
