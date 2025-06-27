@@ -4,6 +4,8 @@ public class Aula09Objetos {
     public static void main(String[] args) {
 
         /**
+         * POO - Programação Orientada a Objetos
+         * 
          * O que é um objeto?
          * R: um objeto nada mais é do que algo, que possui caracteristicas e ações
          * 
@@ -28,8 +30,14 @@ public class Aula09Objetos {
          * É como se estivessemos em uma montadora de automóveis, cada nova instância da classe é um
          * novo veículo pronto.
          */
-        Carro carro1 = new Carro("Camaro", "Chevrolet");
-        Carro carro2 = new Carro("Camaro", "Chevrolet");
+        Carro carro1 = new Carro();
+        Carro carro2 = new Carro();
+
+        carro1.modelo = "Camaro";
+        carro1.marca = "Chevrolet";
+
+        carro2.modelo = "Camaro";
+        carro2.marca = "Chevrolet";
 
         System.out.println(carro1 == carro2);
 
@@ -55,18 +63,6 @@ public class Aula09Objetos {
         String marca;
         int ano;
         int quilometragem = 0;
-
-        /**
-         * Método construtor
-         * 
-         * ele é chamado quando criamos uma nova instância da classe
-         * 
-         * toda classe possui um construtor vazio, e podemos ter mais de um em uma classe
-         */
-        Carro(String modelo, String marca) {
-            this.modelo = modelo;
-            this.marca = marca;
-        }
 
         // Ações da classe
         void andar(int km) {
