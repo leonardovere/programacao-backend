@@ -12,17 +12,21 @@ public class Pessoa {
      * - Getter: Acessar/Buscar
      * - Setter: Modificar/Alterar
      */
-    private String nome; 
-    private int idade; 
-    private double salario;  
-    private double altura; 
-    
-    // Declaramos sempre abaixo 
+    private String nome;
+    private int idade;
+    private double salario;
+    private double altura;
+
+    // Declaramos sempre após a declaração dos atributos.
+
+    // Todo método acessor começa com get.
     public String getNome() {
         return nome;
     }
 
+    // Todo método modificador começa com set.
     public void setNome(String nome) {
+        // this faz referência a própria classe.
         this.nome = nome;
     }
 
