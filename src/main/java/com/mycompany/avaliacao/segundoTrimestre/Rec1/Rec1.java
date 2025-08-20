@@ -1,4 +1,4 @@
-package com.mycompany.avaliacao.segundoTrimestre;
+package com.mycompany.avaliacao.segundoTrimestre.Rec1;
 
 import java.util.Scanner;
 

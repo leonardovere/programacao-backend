@@ -4,6 +4,13 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "com.mycompany.avaliacao.segundoTrimestre.Rec2.App",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "com.mycompany.poo.aula13.App",
             "projectName": "my-app"
         },
