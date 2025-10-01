@@ -69,6 +69,10 @@ public class Pessoa {
         System.out.println(this.nome + " está falando'" + frase + "' !!");
     }
 
+    public void conversar(String frase, Pessoa outra) {
+        System.out.println(this.nome + " está falando '" + frase + "' para " + outra.getNome());
+    }
+
     public String getNome() {
         return nome;
     }
