@@ -22,6 +22,22 @@ public abstract class Animal {
         this.peso = peso;
     }
 
+    // O método som será implementado somente pelas subclasses que herdam de animal
+    public abstract void emitirSom();
+
+    public void respirar() {
+        System.out.println("Respirando... ");
+    }
+
+    // Overload (Sobrecarga) o método mover possui 2 definições
+    public void mover() {
+        System.out.println(this.nome + " está se movendo ...");
+    }
+
+    public void mover(String direcao) {
+        System.out.println(this.nome + " está se movendo para o(a) " + direcao +  " ...");        
+    }
+
     public String getNome() {
         return nome;
     }

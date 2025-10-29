@@ -19,4 +19,13 @@ public class Leao extends Animal {
          */
         super(nome, altura, peso);
     }
+
+    /**
+     * Cada classe precisa implementar o método abstrato seguindo
+     * suas particularidades
+     */
+    @Override
+    public void emitirSom() {
+        System.out.println("O leão está rugindo...");
+    }
 }
